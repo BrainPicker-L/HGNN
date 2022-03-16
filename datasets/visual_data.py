@@ -13,10 +13,10 @@ def load_feature_construct_H(data_dir,
                              use_gvcnn_feature_for_structure=True):
     """
 
-    :param data_dir: directory of feature data
-    :param m_prob: parameter in hypergraph incidence matrix construction
-    :param K_neigs: the number of neighbor expansion
-    :param is_probH: probability Vertex-Edge matrix or binary
+    :param data_dir: 特征数据目录
+    :param m_prob: 超图关联矩阵构造中的参数
+    :param K_neigs: 邻居扩展数
+    :param is_probH: 概率顶点边缘矩阵或二进制
     :param use_mvcnn_feature:
     :param use_gvcnn_feature:
     :param use_mvcnn_feature_for_structure:

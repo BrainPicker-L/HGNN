@@ -27,12 +27,10 @@ def Eu_dis(x):
 
 def feature_concat(*F_list, normal_col=False):
     """
-    Concatenate multiple modality feature. If the dimension of a feature matrix is more than two,
-    the function will reduce it into two dimension(using the last dimension as the feature dimension,
-    the other dimension will be fused as the object dimension)
-    :param F_list: Feature matrix list
-    :param normal_col: normalize each column of the feature
-    :return: Fused feature matrix
+    链接多模态特征。 如果特征矩阵的维数大于二，该函数会将其缩减为二维（使用最后一个维度作为特征维度， 另一个维度将被融合为对象维度）
+    :param F_list: 特征矩阵列表
+    :param normal_col: 规范化特征的每一列
+    :return: 融合特征矩阵
     """
     features = None
     for f in F_list:
